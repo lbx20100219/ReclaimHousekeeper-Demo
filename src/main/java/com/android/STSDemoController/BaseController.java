@@ -1,6 +1,5 @@
 package com.android.STSDemoController;
 
-import java.sql.DriverManager;
 import java.util.List;
 import java.util.UUID;
 
@@ -15,8 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.android.STSDemoModel.Add;
 import com.android.STSDemoService.BaseService;
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.Statement;
 
 
 @Controller
